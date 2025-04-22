@@ -13,8 +13,6 @@ function onsubmit() {
   let student = existing ? JSON.parse(existing) : alert('not found')
   const arr = [{ name: 'test' }]
 
-  // student.push({ ...loginUser.value })
-  // localStorage.setItem('user', JSON.stringify(student))
   const isStudentExist = student.find((std) => {
     return std.username == loginUser.value.userName && std.email == loginUser.value.email
   })
