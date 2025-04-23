@@ -33,7 +33,7 @@ function onsubmit() {
     email: '',
     password: '',
   }
-  router.push({ name: 'home' })
+  router.push({ name: 'login' })
 }
 
 onMounted(() => {})
