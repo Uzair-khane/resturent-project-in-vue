@@ -12,19 +12,16 @@ function logout() {
 </script>
 
 <template>
-  <nav
-    id="navBar"
-    class="bg-gradient-to-r from-slate-500 to-slate-700 flex justify-between items-center px-6 py-3 shadow-md"
-  >
+  <nav id="navBar" class="flex justify-between bg-transparent items-center px-6 py-3 shadow-md">
     <img
       class="w-[90px] h-[90px] rounded-full border-4 border-white shadow-lg"
-      src="../assets/logo_for_signup-removebg-preview.png"
+      src="../assets/logo.png"
       alt="Logo"
     />
 
     <!-- Menu List -->
     <ul
-      class="text-[17px] pl-[120px] sm:static top-0 transition-all sm:bg-transparent bg-slate-500 pt-[150px] gap-[50px] sm:h-auto h-screen fixed sm:w-auto w-[300px] text-white flex space-y-6 sm:flex-row flex-col sm:gap-[16px] p-10 sm:p-4 sm:pr-[40px] shadow-lg sm:shadow-none z-50"
+      class="text-[17px] pl-[120px] sm:static top-0 transition-all sm:bg-transparent pt-[150px] gap-[50px] sm:h-auto h-screen fixed sm:w-auto w-[300px] text-white flex space-y-6 sm:flex-row flex-col sm:gap-[16px] p-10 sm:p-4 sm:pr-[40px] shadow-lg sm:shadow-none z-50"
       :class="[isMenuOpen ? 'left-0' : ' -left-[300px]']"
     >
       <li>
@@ -58,7 +55,7 @@ function logout() {
       <li>
         <button
           v-on:click="logout"
-          class="bg-red-700 hover:bg-red-600 text-white rounded-md w-[90px] h-[40px] cursor-pointer shadow-md transition duration-300"
+          class="bg-yellow-600 hover:bg-yellow-700 text-white rounded-md w-[90px] h-[40px] cursor-pointer shadow-md transition duration-300"
         >
           Log Out
         </button>
