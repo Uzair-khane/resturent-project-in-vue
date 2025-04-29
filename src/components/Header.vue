@@ -21,7 +21,7 @@ function logout() {
 
     <!-- Menu List -->
     <ul
-      class="text-[17px] pl-[120px] sm:static top-0 transition-all sm:bg-transparent pt-[150px] gap-[50px] sm:h-auto h-screen fixed sm:w-auto w-[300px] text-white flex space-y-6 sm:flex-row flex-col sm:gap-[16px] p-10 sm:p-4 sm:pr-[40px] shadow-lg sm:shadow-none z-50"
+      class="text-[17px] pl-[120px] sm:static top-0 transition-all sm:bg-transparent pt-[150px] gap-[50px] sm:h-auto h-screen fixed sm:w-auto w-[300px] text-white flex space-y-6 sm:flex-row flex-col sm:gap-[16px] p-10 sm:p-4 sm:pr-[40px] shadow-lg sm:shadow-none z-50 bg-slate-600"
       :class="[isMenuOpen ? 'left-0' : ' -left-[300px]']"
     >
       <li>
